@@ -17,6 +17,8 @@
 
 ## 本次更新
 
+檳榔幼苗照片在手機、平板與電腦上等比例完整顯示，不裁切；圖說放在照片下方。
+
 頂端導覽列會隨頁面捲動持續停留在畫面上方，桌面與手機皆適用；點擊導覽時預留標題空間，避免被導覽列遮住。
 
 加入 Facebook https://www.facebook.com/onanip.hl/ 及 Instagram https://www.instagram.com/onanip.hl/ 。
