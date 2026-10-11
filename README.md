@@ -9,13 +9,22 @@
 
 ## 檔案
 
-- index.html：主頁，五個區塊包含協會介紹、宗旨理念、核心業務、第二屆團隊及聯絡資訊。
+- index.html：主頁，六個區塊包含協會介紹、宗旨理念、核心業務、第二屆團隊及聯絡資訊。
 - assets/seedling.jpg：會員大會簡報中的原檳榔幼苗照片。
 - assets/site.css：網站排版與手機樣式。
 - assets/site.js：手機選單、頁內導覽、年份。
 - about.html、projects.html、contact.html、join.html、transparency.html：舊網址轉接至首頁對應區塊。
 
 ## 本次更新
+
+新增「參與與合作方式」，提供加入協會、關注活動與合作洽詢的入口。合作窗口為總幹事 Karo 李永昌，信箱為 karo@onanip.org。
+新增「協會章程下載」按鈕，依要求暫設 href="#"、target="_blank"。
+
+### 自行設定協會章程連結
+
+在 index.html 搜尋 id="oni-charter-download"，將該連結的 href="#" 替換為正式章程檔案網址或相對路徑，保留 target="_blank" 與 rel="noopener noreferrer"。
+若使用本專案內的 PDF，可自行建立 documents 資料夾上傳章程，並將 href 設為 "documents/charter.pdf"。本套件沒有附上章程 PDF。
+
 
 檳榔幼苗照片在手機、平板與電腦上等比例完整顯示，不裁切；圖說放在照片下方。
 

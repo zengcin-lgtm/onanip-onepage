@@ -17,3 +17,25 @@ html{scroll-behavior:smooth}body{margin:0}@media(prefers-reduced-motion:reduce){
 /* Keep section headings visible below the persistent navigation. */
 #onanip-site .oni-hero{scroll-margin-top:116px}
 @media(max-width:820px){#onanip-site .oni-section,#onanip-site .oni-hero{scroll-margin-top:106px}}
+
+/* Participation options and association charter. */
+#onanip-site .oni-charter-download{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;border-top:1px solid var(--oni-line);margin-top:22px;padding-top:25px}
+#onanip-site .oni-charter-download h3{font-size:17px;margin-bottom:4px}
+#onanip-site .oni-charter-download p{font-size:13px;color:var(--oni-muted);margin:0}
+#onanip-site .oni-participation-section{background:var(--oni-light)}
+#onanip-site .oni-participation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}
+#onanip-site .oni-participation-card{display:flex;flex-direction:column;align-items:flex-start;border-top:3px solid var(--oni-olive);padding:24px;background:var(--oni-paper)}
+#onanip-site .oni-participation-card:nth-child(2){border-top-color:var(--oni-gold)}
+#onanip-site .oni-participation-card:nth-child(3){border-top-color:var(--oni-brown)}
+#onanip-site .oni-participation-label{font-size:12px;color:#536245;margin-bottom:9px}
+#onanip-site .oni-participation-card h3{font-size:19px;margin-bottom:13px}
+#onanip-site .oni-participation-card>p:not(.oni-participation-label){font-size:13px;color:var(--oni-muted);margin-bottom:22px}
+#onanip-site .oni-participation-card>.oni-button,#onanip-site .oni-participation-social{margin-top:auto}
+#onanip-site .oni-participation-social{display:flex;flex-wrap:wrap;gap:9px}
+#onanip-site .oni-participation-social a{display:inline-flex;align-items:center;min-height:44px;padding:9px 10px;border:1px solid var(--oni-line);border-radius:4px;font-size:12px;color:var(--oni-brown)}
+#onanip-site .oni-coordinator{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;border-top:1px solid var(--oni-line);margin-top:28px;padding-top:22px;color:var(--oni-brown)}
+#onanip-site .oni-coordinator-label{display:block;color:var(--oni-muted);font-size:12px;margin-bottom:4px}
+#onanip-site .oni-coordinator strong{font-size:15px;font-weight:500}
+#onanip-site .oni-coordinator>a{font-size:14px;padding-block:9px;overflow-wrap:anywhere}
+@media(max-width:820px){#onanip-site .oni-participation-grid{grid-template-columns:1fr;gap:18px}}
+@media(max-width:560px){#onanip-site .oni-charter-download{align-items:flex-start;flex-direction:column}#onanip-site .oni-coordinator{align-items:flex-start;flex-direction:column;gap:8px}#onanip-site .oni-participation-card{padding:23px}}
