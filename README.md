@@ -17,6 +17,8 @@
 
 ## 本次更新
 
+頂端導覽列會隨頁面捲動持續停留在畫面上方，桌面與手機皆適用；點擊導覽時預留標題空間，避免被導覽列遮住。
+
 加入 Facebook https://www.facebook.com/onanip.hl/ 及 Instagram https://www.instagram.com/onanip.hl/ 。
 移除兩項核心業務下的六項服務細目，保留業務標題與概述。
 團隊依使用者提供的第二屆名單呈現。
