@@ -39,3 +39,14 @@ html{scroll-behavior:smooth}body{margin:0}@media(prefers-reduced-motion:reduce){
 #onanip-site .oni-coordinator>a{font-size:14px;padding-block:9px;overflow-wrap:anywhere}
 @media(max-width:820px){#onanip-site .oni-participation-grid{grid-template-columns:1fr;gap:18px}}
 @media(max-width:560px){#onanip-site .oni-charter-download{align-items:flex-start;flex-direction:column}#onanip-site .oni-coordinator{align-items:flex-start;flex-direction:column;gap:8px}#onanip-site .oni-participation-card{padding:23px}}
+
+/* Term dates stay static and are updated only when the roster is revised. */
+#onanip-site .oni-team-meta{display:flex;flex-direction:column;align-items:flex-end;gap:6px;max-width:100%}
+#onanip-site .oni-team-meta .oni-term{margin:0}
+#onanip-site .oni-team-meta p{margin:0;font-size:12px;line-height:1.7;color:var(--oni-muted)}
+#onanip-site .oni-team-meta .oni-term-dates{color:var(--oni-brown)}
+#onanip-site .oni-participation-card .oni-fees{width:100%;margin-top:15px}
+#onanip-site .oni-participation-card .oni-fees p,#onanip-site .oni-participation-card .oni-fees .oni-small{font-size:12px;color:var(--oni-muted)}
+#onanip-site #oni-cooperation-contact,#onanip-site #oni-social{scroll-margin-top:116px}
+@media(max-width:820px){#onanip-site #oni-cooperation-contact,#onanip-site #oni-social{scroll-margin-top:106px}}
+@media(max-width:560px){#onanip-site .oni-team-meta{align-items:flex-start}}
